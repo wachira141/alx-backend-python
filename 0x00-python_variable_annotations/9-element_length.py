@@ -2,10 +2,10 @@
 '''
 Task 9 module
 '''
-from from typing import Iterable, List, Sequence, Tuple
+from typing import Iterable, List, Sequence, Tuple
 
 
-def element_length(lst: iterable[Sequence]) -> List[Tuple[Sequence, int]]:
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     '''
     Computes the length of a list of sequence.
     '''

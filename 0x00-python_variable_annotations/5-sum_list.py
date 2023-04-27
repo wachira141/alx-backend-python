@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-'''complex types - list of floats
+'''Task 5's module.
 '''
 from typing import List
 
 
 def sum_list(input_list: List[float]) -> float:
-    '''take a list of floats and return a float
+    '''Computes the sum of a list of floating-point numbers.
     '''
-    return float(sum(input_list))    
+    return float(sum(input_list))

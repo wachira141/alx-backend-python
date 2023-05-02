@@ -12,11 +12,11 @@ wait_random = __import__('0-basic_async_syntax').wait_random
 
 async def wait_n(n: int, max_delay: int) -> List[float]:
     """
-    receive 2 int and return 
+    receive 2 int and return
     a list ordered in ascending order
     """
     delay_list = []
     for _ in range(n):
-        conc_tasks =await wait_random(max_delay)
+        conc_tasks = await wait_random(max_delay)
         delay_list.append(conc_tasks)
     return sorted(delay_list)
